@@ -1,0 +1,104 @@
+/* Login.module.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  }
+  
+  .container {
+    width: 350px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .selectRole, 
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    background: #3d3f64;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 1em;
+  }
+  
+  .selectRole {
+    cursor: pointer;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 12px;
+    background: #6d44b8;
+    color: #ebdddd;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease-in;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background: #6d44b8;
+  }
+  
+  /* Additional hover effects for labels and inputs */
+  .inputField:focus, 
+  .selectRole:focus {
+    border: 2px solid #573b8a;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 400px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
+  .noAccountLabel {
+    color: #000; /* Black color for the text */
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .buttonLink {
+    background: none;
+    color: #573b8a;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .buttonLink:hover {
+    color: #6d44b8;
+  }
