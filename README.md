@@ -45,19 +45,22 @@
 ### Folder Structure
 
 ```plaintext
-src/
+multi-store-tracker/
 │
-├── components/
-│   ├── Header.jsx
-│   ├── Sidebar.jsx
-│   └── Footer.jsx
-│
-├── pages/
-│   ├── Home.jsx
-│   ├── Login.jsx
-│   ├── Signup.jsx
-│   ├── Dashboard.jsx
-│   └── ProductManagement.jsx
-│
-├── App.jsx
-└── index.js
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Auth/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Signup.jsx
+│   │   └── ShopOwner/
+│   │       ├── AddProduct.jsx
+│   │       ├── ManageInventory.jsx
+│   ├── pages/
+│   │   ├── UserDashboard.jsx
+│   │   ├── ShopOwnerDashboard.jsx
+│   │   └── SearchStores.jsx
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── styles/
+│       └── main.css
