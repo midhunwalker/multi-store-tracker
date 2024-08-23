@@ -1,6 +1,6 @@
 # SupplyCo Shop Interaction Platform
 
-***This React-based platform connects clients and SupplyCo shops, enabling users to check stock availability and shop owners to manage products efficiently.***
+***This React-based platform connects clients and SupplyCo shops, enabling users to check stock availability and shop owners to manage products efficiently. #this project is under deveopment***
 
 ## Features
 
